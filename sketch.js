@@ -16,7 +16,7 @@ function setup() {
 
 function draw() {
   background(sliderRed.value(), sliderGreen.value(), sliderBlue.value());
-  // ellipse(width / 2, height / 2, (sliderRed.value() + sliderGreen.value() + sliderBlue.value()) / 3);
+  ellipse(width / 2, height / 2, (sliderRed.value() + sliderGreen.value() + sliderBlue.value()) / 3);
 }
 
 function windowResized() {
